@@ -1,0 +1,103 @@
+*{
+	Scroll-behavior:smooth;
+}
+#menu{
+	background:lime;
+	position:sticky;
+	top:0px;
+}
+#menu ul{
+	margin:0px;
+	padding:0px;
+}
+#menu ul li{
+	display:inline-block;
+	padding:10px;
+}
+/* Home block code */
+#home{
+	height:500px;
+	width:100%;
+	background:url('image/img1.jpg');
+	background-size:cover;
+}
+#home .home_block1{
+	height:400px;
+	width:45%;
+	//background:cyan;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	border-left:5px solid red;
+	border-right:5px solid white;
+	border-bottom:5px solid green;
+}
+#home  h1{
+	background:pink;
+	text-align:center;
+	padding:10px;
+	margin:0px;
+}
+#home h1:hover{
+	background:hotpink;
+	color:white;
+}
+#home p{
+	padding:10px;
+	text-align:justify;
+	color:white;
+}
+#home .home_block2{
+	height:400px;
+	width:45%;
+	float:left;
+	//background:yellow;
+	margin-left:20px;
+	margin-top:20px;
+	border-left:5px solid white;
+	border-right:5px solid red;
+	border-bottom:5px solid green;
+}
+/* about block code */
+#about{
+	height:500px;
+	width:100%;
+	background:tomato;
+}
+
+#about .about_block1{
+	height:200px;
+	width:200px;
+	background:pink;
+	float:left;
+	margin-left:100px;
+	margin-top:100px;
+}
+#about .about_block2{
+	height:200px;
+	width:200px;
+	background:red;
+	float:left;
+	margin-left:50px;
+	margin-top:100px;
+}
+#about .about_block3{
+	height:200px;
+	width:200px;
+	background:green;
+	float:left;
+	margin-left:50px;
+	margin-top:100px;
+}
+
+
+#gallery{
+	height:500px;
+	width:100%;
+	background:cyan;
+}
+#contact{
+	height:500px;
+	width:100%;
+	background:pink;
+}
